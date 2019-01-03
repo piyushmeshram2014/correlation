@@ -4,11 +4,13 @@
 
 Add dependency to your project
 
+```
 <dependency>
   <groupId>io.github.029vaibhav</groupId>
   <artifactId>correlation</artifactId>
-  <version>{version}</version>
+  <version>1.0.1.RELEASE</version>
 </dependency>
+```
 
 Steps to incorporate correlation id into your project.
 
