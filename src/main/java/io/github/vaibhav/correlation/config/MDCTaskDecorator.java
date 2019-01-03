@@ -1,4 +1,4 @@
-package com.opensource.correlation.config;
+package io.github.vaibhav.correlation.config;
 
 import org.slf4j.MDC;
 import org.springframework.core.task.TaskDecorator;

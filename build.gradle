@@ -1,17 +1,63 @@
-
-
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
-
-
-group 'com.opensource'
-version '1.0-SNAPSHOT'
+apply plugin: 'com.bmuschko.nexus'
+archivesBaseName = 'correlation'
+group = "io.github.029vaibhav"
+version = "1.0.0.RELEASE"
 
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.bmuschko:gradle-nexus-plugin:2.3.1'
+    }
+}
+
+modifyPom {
+    project {
+        name 'correlation'
+        description 'An open source project to integrate correlation id into your springboot application.'
+        url 'https://github.com/029vaibhav/correlation'
+        inceptionYear '2019'
+        scm {
+            url 'https://github.com/029vaibhav/correlation'
+            connection 'scm:https://github.com/029vaibhav/correlation.git'
+            developerConnection 'scm:git://github.com/029vaibhav/correlation.git'
+        }
+        licenses {
+            license {
+                name 'The Apache Software License, Version 2.0'
+                url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                distribution 'repo'
+            }
+        }
+        developers {
+            developer {
+                id 'vaibhav.agrawal'
+                name 'Vaibhav Agrawal'
+                email '029vaibhav@gmail.com'
+            }
+        }
+    }
+}
+
+extraArchive {
+    sources = true
+    tests = true
+    javadoc = true
+}
+nexus {
+    sign = true
+    repositoryUrl = 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'
+    snapshotRepositoryUrl = 'https://oss.sonatype.org/content/repositories/snapshots/'
 }
 
 dependencies {
@@ -24,7 +70,6 @@ dependencies {
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
     // https://mvnrepository.com/artifact/javax.servlet/servlet-api
     compileOnly group: 'javax.servlet', name: 'servlet-api', version: '2.5'
-
 
 
 }

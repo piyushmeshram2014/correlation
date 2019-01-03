@@ -1,6 +1,6 @@
-package com.opensource.correlation.config;
+package io.github.vaibhav.correlation.config;
 
-import com.opensource.correlation.filter.CorrelationIdInterceptor;
+import io.github.vaibhav.correlation.filter.CorrelationIdInterceptor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

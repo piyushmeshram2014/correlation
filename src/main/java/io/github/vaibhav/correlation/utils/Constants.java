@@ -1,4 +1,4 @@
-package com.opensource.correlation.utils;
+package io.github.vaibhav.correlation.utils;
 
 public class Constants {
 

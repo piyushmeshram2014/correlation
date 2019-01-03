@@ -1,4 +1,4 @@
-package com.opensource.correlation.config;
+package io.github.vaibhav.correlation.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurerSupport;

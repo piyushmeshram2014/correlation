@@ -1,11 +1,11 @@
-package com.opensource.correlation.utils;
+package io.github.vaibhav.correlation.utils;
 
 import org.slf4j.MDC;
 import org.springframework.util.StringUtils;
 
 import java.util.UUID;
 
-import static com.opensource.correlation.utils.Constants.REQUEST_MARKER_MDC_KEY;
+import static io.github.vaibhav.correlation.utils.Constants.REQUEST_MARKER_MDC_KEY;
 
 
 public class Correlation {
