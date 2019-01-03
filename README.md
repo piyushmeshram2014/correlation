@@ -2,6 +2,14 @@
 
 ## An open source project to integrate correlation id into your springboot application.
 
+Add dependency to your project
+
+<dependency>
+  <groupId>io.github.029vaibhav</groupId>
+  <artifactId>correlation</artifactId>
+  <version>{version}</version>
+</dependency>
+
 Steps to incorporate correlation id into your project.
 
 Add ```@ComponentScan("com.opensource.correlation.*")```
