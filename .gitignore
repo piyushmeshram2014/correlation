@@ -49,3 +49,7 @@ gradle-app.setting
 gradle/
 gradlew
 gradlew.bat
+.idea/modules/
+private-key.asc
+private-key.gpg
+src/test/
