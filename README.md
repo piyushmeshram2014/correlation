@@ -8,7 +8,7 @@ Add dependency to your project
 <dependency>
   <groupId>io.github.029vaibhav</groupId>
   <artifactId>correlation</artifactId>
-  <version>1.0.1.RELEASE</version>
+  <version>1.0.2.RELEASE</version>
 </dependency>
 ```
 
