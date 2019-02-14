@@ -42,3 +42,7 @@ RestTemplate can be used via Dependency injection.
 @Inject
 RestTemplate restTemplate
 ```
+
+## License
+correlation is Open Source software released under the Apache 2.0 license.
+
