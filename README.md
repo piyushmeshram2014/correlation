@@ -6,7 +6,7 @@ Add dependency to your project
 
 ```
 <dependency>
-  <groupId>io.github.029vaibhav</groupId>
+  <groupId>org.commonsources</groupId>
   <artifactId>correlation</artifactId>
   <version>1.0.2.RELEASE</version>
 </dependency>
