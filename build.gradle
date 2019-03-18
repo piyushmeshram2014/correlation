@@ -21,8 +21,8 @@ apply plugin: 'com.bmuschko.nexus'
 
 
 archivesBaseName = 'correlation'
-group = "io.github.029vaibhav"
-version = "1.0.2.RELEASE"
+group = "org.commonsources"
+version = "1.0.4.RELEASE"
 
 sourceCompatibility = 1.8
 
@@ -36,12 +36,12 @@ modifyPom {
     project {
         name 'correlation'
         description 'An open source project to integrate correlation id into your springboot application.'
-        url 'https://github.com/029vaibhav/correlation'
+        url 'https://commonsources.com/029vaibhav/correlation'
         inceptionYear '2019'
         scm {
-            url 'https://github.com/029vaibhav/correlation'
-            connection 'scm:https://github.com/029vaibhav/correlation.git'
-            developerConnection 'scm:git://github.com/029vaibhav/correlation.git'
+            url 'https://commonsources.com/029vaibhav/correlation'
+            connection 'scm:https://commonsources.com/029vaibhav/correlation.git'
+            developerConnection 'scm:git://commonsources.com/029vaibhav/correlation.git'
         }
         licenses {
             license {
@@ -52,7 +52,7 @@ modifyPom {
         }
         developers {
             developer {
-                id 'vaibhav.agrawal'
+                id 'correlation.agrawal'
                 name 'Vaibhav Agrawal'
                 email '029vaibhav@gmail.com'
             }

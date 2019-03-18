@@ -1,11 +1,9 @@
-package io.github.vaibhav.correlation.utils;
+package com.commonsources.correlation.utils;
 
 import org.slf4j.MDC;
 import org.springframework.util.StringUtils;
 
 import java.util.UUID;
-
-import static io.github.vaibhav.correlation.utils.Constants.REQUEST_MARKER_MDC_KEY;
 
 
 public class Correlation {
@@ -14,7 +12,7 @@ public class Correlation {
     }
 
     public static String getCorrelationId() {
-        String correlationId = MDC.get(REQUEST_MARKER_MDC_KEY);
+        String correlationId = MDC.get(Constants.REQUEST_MARKER_MDC_KEY);
         if (StringUtils.isEmpty(correlationId)) {
             setCorrelationId(correlationId);
         }
@@ -26,7 +24,7 @@ public class Correlation {
         if (StringUtils.isEmpty(correlationId)) {
             correlationId = generateCorrelationId();
         }
-        MDC.put(REQUEST_MARKER_MDC_KEY, correlationId);
+        MDC.put(Constants.REQUEST_MARKER_MDC_KEY, correlationId);
     }
 
     private static String generateCorrelationId() {

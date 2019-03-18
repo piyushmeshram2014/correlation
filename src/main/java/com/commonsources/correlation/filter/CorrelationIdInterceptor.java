@@ -1,6 +1,6 @@
-package io.github.vaibhav.correlation.filter;
+package com.commonsources.correlation.filter;
 
-import io.github.vaibhav.correlation.utils.Correlation;
+import com.commonsources.correlation.utils.Correlation;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpRequest;
 import org.springframework.http.client.ClientHttpRequestExecution;
@@ -9,7 +9,7 @@ import org.springframework.http.client.ClientHttpResponse;
 
 import java.io.IOException;
 
-import static io.github.vaibhav.correlation.utils.Constants.CO_RELATION_ID_HEADER;
+import static com.commonsources.correlation.utils.Constants.CO_RELATION_ID_HEADER;
 
 
 public class CorrelationIdInterceptor implements ClientHttpRequestInterceptor {
