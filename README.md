@@ -6,7 +6,7 @@ Add dependency to your project
 
 ```
 <dependency>
-  <groupId>io.github.029vaibhav</groupId>
+  <groupId>org.commonsources</groupId>
   <artifactId>correlation</artifactId>
   <version>1.0.2.RELEASE</version>
 </dependency>
@@ -14,7 +14,7 @@ Add dependency to your project
 
 Steps to incorporate correlation id into your project.
 
-Add ```@ComponentScan("com.opensource.correlation.*")```
+Add ```@ComponentScan("io.github.vaibhav.correlation.*")```
 
 Add logback.xml into your resource folder and paste the following pattern 
 or if you already have the logback.xml change pattern for your loggings
@@ -42,3 +42,7 @@ RestTemplate can be used via Dependency injection.
 @Inject
 RestTemplate restTemplate
 ```
+
+## License
+correlation is Open Source software released under the Apache 2.0 license.
+
