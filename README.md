@@ -14,7 +14,7 @@ Add dependency to your project
 
 Steps to incorporate correlation id into your project.
 
-Add ```@ComponentScan("io.github.vaibhav.correlation.*")```
+Add ```@ComponentScan("com.correlation.*")```
 
 Add logback.xml into your resource folder and paste the following pattern 
 or if you already have the logback.xml change pattern for your loggings
