@@ -1,4 +1,4 @@
-package com.commonsources.correlation.utils;
+package org.commonsources.correlation.utils;
 
 public class Constants {
 

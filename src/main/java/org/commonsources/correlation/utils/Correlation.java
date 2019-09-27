@@ -1,4 +1,4 @@
-package com.commonsources.correlation.utils;
+package org.commonsources.correlation.utils;
 
 import org.slf4j.MDC;
 import org.springframework.util.StringUtils;

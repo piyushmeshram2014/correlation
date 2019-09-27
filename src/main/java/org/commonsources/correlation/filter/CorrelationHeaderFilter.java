@@ -1,6 +1,6 @@
-package com.commonsources.correlation.filter;
+package org.commonsources.correlation.filter;
 
-import com.commonsources.correlation.utils.Correlation;
+import org.commonsources.correlation.utils.Correlation;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
 import org.springframework.stereotype.Component;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static com.commonsources.correlation.utils.Constants.CO_RELATION_ID_HEADER;
-import static com.commonsources.correlation.utils.Constants.REQUEST_MARKER_MDC_KEY;
+import static org.commonsources.correlation.utils.Constants.CO_RELATION_ID_HEADER;
+import static org.commonsources.correlation.utils.Constants.REQUEST_MARKER_MDC_KEY;
 
 
 @Component

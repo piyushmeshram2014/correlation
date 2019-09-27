@@ -1,4 +1,4 @@
-package com.commonsources.correlation.config;
+package org.commonsources.correlation.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurerSupport;

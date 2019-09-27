@@ -1,4 +1,4 @@
-package com.commonsources.correlation.config;
+package org.commonsources.correlation.config;
 
 import org.slf4j.MDC;
 import org.springframework.core.task.TaskDecorator;
