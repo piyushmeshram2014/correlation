@@ -53,3 +53,4 @@ gradlew.bat
 private-key.asc
 private-key.gpg
 src/test/
+gradle.properties

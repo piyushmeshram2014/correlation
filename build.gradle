@@ -22,7 +22,7 @@ apply plugin: 'com.bmuschko.nexus'
 
 archivesBaseName = 'correlation'
 group = "org.commonsources"
-version = "1.0.6.RELEASE"
+version = "1.0.7.RELEASE"
 
 sourceCompatibility = 1.8
 
