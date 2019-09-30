@@ -8,7 +8,7 @@ Add dependency to your project
 <dependency>
   <groupId>org.commonsources</groupId>
   <artifactId>correlation</artifactId>
-  <version>1.0.4.RELEASE</version>
+  <version>1.0.7.RELEASE</version>
 </dependency>
 ```
 
